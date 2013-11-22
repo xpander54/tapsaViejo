@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /common/
+Disallow: /misc_/
+Disallow: /logs/
+Disallow: /OLD/
+Disallow: /new/

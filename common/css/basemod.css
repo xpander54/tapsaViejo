@@ -1,0 +1,237 @@
+
+
+
+
+
+@media all
+{
+  /*------------------------------------------------------------------------------------------------------*/
+
+  /**
+   * (en) Formatting YAML's  basic layout elements
+   * (de) Gestaltung des YAML Basis-Layouts
+   */
+
+  /* (en) Marginal areas & page background */
+  /* (de) Randbereiche & Seitenhintergrund */
+  body { background: #4d87c7 url("http://pegaso.gestaltungswerk.info/zope/pegaso/common/img/bg_blue.gif") repeat-x top left fixed; padding: 10px 0; }
+
+  /* (en) Layout: width, background, borders */
+  /* (de) Layout: Breite, Hintergrund, Rahmen */
+  #page_margins { min-width: 740px; max-width: 80em; margin: 0 auto; border: 0px #889 solid; }
+  #page{ background: #fff; border: 10px #fff solid; }
+
+  /* (en) Centering layout in old IE-versions */
+  /* (de) Zentrierung des Layouts in alten IE-versionen */
+  body { text-align: center }
+  #page_margins { text-align:left }
+
+  /* (en) Designing main layout elements */
+  /* (de) Gestaltung der Hauptelemente des Layouts */
+  #header {
+    color: #000;
+    background: #efefef repeat-x top left;
+    /*padding: 45px 2em 0em 20px; */
+  }
+
+  #topnav { color: #999; background: transparent; }
+
+  /* (en) adjustment of main navigation */
+  /* (de) Anpassung der Hauptnavigation */
+  #nav ul { margin-left: 20px; }
+  #nav_main {background-color: #336}
+
+  #main { background: #fff;padding:10px 0; }
+
+  #footer { 
+    color:#666; 
+    background: #f9f9f9;
+    padding: 15px;
+    border-top: 5px #efefef solid;
+
+  }
+
+  /*------------------------------------------------------------------------------------------------------*/
+
+  /**
+   * (en) Formatting content container
+   * (de) Formatierung der Inhalts-Container
+   *
+   * |-------------------------------|
+   * | #header                       |
+   * |-------------------------------|
+   * | #col1   | #col3     | #col2   |
+   * | 25%     | flexible  | 25%     |
+   * |-------------------------------|
+   * | #footer                       |
+   * |-------------------------------|
+   */
+
+
+  #col1 { width: 25% }
+  #col1_content { padding: 10px 10px 10px 20px; }
+
+  #col2 { width: 25% }
+  #col2_content { padding: 10px 20px 10px 10px; }
+
+  #col3 { margin: 0 25% }
+  #col3_content { padding: 10px }
+
+  /**
+   * (en) Repositioning content container
+   * (de) Neupositionierung der Content Container
+   *
+   * |-------------------------------|
+   * | #header                       |
+   * | 960px                         |
+   * |-------------------------------|
+   * | #col2   | #col1     | #col3   |
+   * | 240px   | 480px     | 240px   |
+   * |-------------------------------|
+   * | #footer                       |
+   * |-------------------------------|
+   */
+
+  #page_margins {width: 980px; min-width:inherit; max-width:none }
+
+  #main {
+    width: 100%; 
+  	float:left;
+    background-color: transparent;
+    background-image: url(http://pegaso.gestaltungswerk.info/zope/pegaso/common/img/bg_pattern.png);
+    background-repeat:repeat-y;
+    background-position:left;
+  }
+
+  /* #col1 becomes the middle column | #col1 wird zur mittleren Spalte */
+  #col1 { width: 480px; float:left; margin-left: 240px; }
+  #col1_content {padding-left: 10px; padding-right: 10px}
+
+  /* #col2 becomes the left column | #col2 wird zur linken Spalte */
+  #col2 { width: 240px; float:left;  margin-left: -720px; }
+  #col2_content {padding-left: 20px; padding-right: 10px }
+
+  /* #col3 becomes the right column | #col3 wird zur rechten Spalte */
+  #col3 { margin-left: 0; margin-right: 0; width: 240px; float:right;}
+  #col3_content {padding-left: 10px; padding-right: 20px}
+  
+  /*------------------------------------------------------------------------------------------------------*/
+
+  /**
+   * (en) Modifying "shiny buttons" navigation
+   * (en) Anpassung der "Shiny Buttons" Navigation
+   */
+
+  #nav * { border: 0px none !important}
+  #nav_main { background: #efefef }
+  #nav_main ul { margin-left: 10px }
+  #nav_main ul li { line-height: 1.2em}
+  
+  #nav_main ul li a,
+  #nav_main ul li strong { color: #666; font-weight: normal; padding: 0.5em 0.8em 0.5em 0.8em;}
+  
+  #nav_main ul li a:focus,
+  #nav_main ul li a:hover,
+  #nav_main ul li a:active  { background: #182E7A; color: #fff }
+  
+  #nav_main ul li#current { background: transparent }
+  
+  #nav_main ul li#current strong,
+  #nav_main ul li#current a,
+  #nav_main ul li#current a:focus,
+  #nav_main ul li#current a:hover,
+  #nav_main ul li#current a:active { color: #4D87C7; font-weight: bold }
+  
+  #submenu {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 0 1.5em -1em;
+    list-style-type: none;
+    border-top: 2px #ddd solid;
+    border-bottom: 2px #ddd solid;
+  }
+
+  #submenu ul { list-style-type: none; margin:0; padding: 0; }
+  #submenu li { float:left; width: 100%; margin:0; padding: 0 }
+
+  #submenu a,
+  #submenu strong {
+    display:block;
+    width: 90%;
+    padding: 3px 0px 3px 10%;
+    text-decoration: none;
+    background-color:#fff;
+    color: #444;
+    border-bottom: 1px #eee solid;
+  }
+
+  /* Menu Title */
+  #submenu li#title {
+    width: 90%;
+    padding: 3px 0px 3px 10%;
+    font-weight: bold;
+    color: #444;
+    background-color: #fff;
+    border-bottom: 4px #888 solid;
+  }
+
+  #submenu li span {
+    display:block;
+    width: 90%;
+    padding: 3px 0px 3px 10%;
+    font-weight: bold;
+    border-bottom: 1px #ddd solid;
+  }
+
+  /* Level 1 */
+  #submenu li#active,
+  #submenu li strong {
+    /*width: 90%;*/
+    /*padding: 3px 0px 3px 10%;*/
+    font-weight: bold;
+    color: #fff;
+    /*background-color:#aab;*/
+    /*border-bottom: 1px #eee solid;*/
+  }
+
+  #submenu li a { /*width: 90%; padding-left: 10%;*/ background-color:#fff; color: #444; }
+  #submenu li a:focus,
+  #submenu li a:hover,
+  #submenu li a:active { background-color:#f63; color: #fff; }
+
+  /* Level 2 */
+  #submenu li ul li a,
+  #submenu li ul li#active,
+  #submenu li ul li strong,
+  #submenu li ul li span { /*width: 80%; padding-left: 20%;*/ }
+
+  #submenu li ul li a { background-color:#f8f8f8; color: #666; }
+  #submenu li ul li a:focus,
+  #submenu li ul li a:hover,
+  #submenu li ul li a:active { background-color:#f63; color: #fff; }
+
+  /* Level 3 */
+  #submenu li ul li ul li a,
+  #submenu li ul li ul li#active,
+  #submenu li ul li ul li strong,
+  #submenu li ul li ul li span { /*width: 70%; padding-left: 30%;*/ }
+
+  #submenu li ul li ul li a { background-color:#fcfcfc; color: #888; }
+  #submenu li ul li ul li a:focus,
+  #submenu li ul li ul li a:hover,
+  #submenu li ul li ul li a:active { background-color:#f63; color: #fff; }
+
+  /* Level 4 */
+  #submenu li ul li ul li ul li a,
+  #submenu li ul li ul li ul li#active,
+  #submenu li ul li ul li ul li strong,
+  #submenu li ul li ul li ul li span { /*width: 60%; padding-left: 40%;*/ }
+
+  #submenu li ul li ul li ul li a { background-color:#ffffff; color: #aaa; }
+  #submenu li ul li ul li ul li a:focus,
+  #submenu li ul li ul li ul li a:hover,
+  #submenu li ul li ul li ul li a:active { background-color:#f63; color: #fff; }  
+
+  #Micronavigation { margin: 0 0 0.5em 0; }
+}
+

@@ -1,0 +1,6 @@
+@media print
+{
+    #logo { margin:1em 0; padding:0; }
+    
+    a[href]:after { display:none; }
+}

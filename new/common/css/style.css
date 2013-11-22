@@ -1,0 +1,44 @@
+/**************************************/
+/* Colors and Management Interface    */
+/**************************************/
+.neutralColorTrans {background-color: transparent}
+.neutralColorWhite {background-color: #fff}
+.neutralColorLight {background-color: #e8e8e8}
+.neutralColorMedium {background-color: #ccc}
+.neutralColorStrong {background-color: #999}
+.neutralColorBlack  {background-color: #000}
+.teaserColor {background-color: #B8CB00;}
+.secondColorStrong {background-color: #aaa;}
+.secondColorMedium {background-color: #ddd;}
+.secondColorLight {background-color: #eee;}
+.primColorStrong {background-color: #336699;}
+.primColorMedium {background-color: #B0C3DE;}
+.primColorLight {background-color: #DCE0EA;}
+
+.cmsTxtColorStrong0 { color: #436976; }
+.cmsTxtColorStrong1 { color: #666666; }
+.cmsBgColorStrong0  { background-color: #8CABB9; }
+.cmsBgColorStrong1  { background-color: #CCCCCC; }
+.cmsBgColorMedium0  { background-color: #DDE6EC; }
+.cmsBgColorLight0   { background-color: #FFFFFF; }
+div.ZMSTable table th { background-color:#DDEFFC; }
+div.ZMSTable table td { background-color:#EEEEEE; }
+
+.zmiTableRowEven {background-color:#eee;}
+.zmiTableRowOdd {background-color:#ccc;}
+
+.form-submit { font-size:12px; }
+
+body.zmi h1, body.zmi h2, body.zmi h3, body.zmi h4, 
+body.zmi h5, body.zmi h6  {
+	font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-weight:bold;
+	font-size:15px;
+	line-height:19px;
+
+} 
+body.zmi p, body.zmi li, body.zmi blockquote  {
+	font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+	font-size:12px;
+	line-height:15px;
+}

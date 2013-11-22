@@ -1,0 +1,187 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head
+><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+
+
+<script type="text/javascript" charset="UTF-8" src="../../styleswitcher.js"></script>
+<script type="text/javascript" charset="UTF-8" src="../../comlib.js"></script>
+<script type="text/javascript" charset="UTF-8" src="../../zmilib.js"></script>
+<script type="text/javascript" charset="UTF-8" src="../../formlib.js"></script>
+<script type="text/javascript" charset="UTF-8" src="../../datelib.js"></script>
+
+
+<link href="../../../common/css/style.css" rel="stylesheet" type="text/css"/>
+<link rel="shortcut icon" href="../../../common/favicon.ico" type="image/x-icon" />
+
+
+
+<meta name="Robots" content="noindex,nofollow"
+><title>E-Mail Form</title
+></head
+><body class="print"
+>
+
+
+
+
+
+<div id="pageregionMiddle">
+<div id="HeadlineImage">
+<img src="../../e7/e148/DSC_3645_72dpi_eng.jpg" alt="" id="Mainimage" /></div>
+
+<div id="pageregionContent">
+<div id="InnerContent">
+<div id="Micronavigation"><a href="../../index_eng.html">Home</a>
+&raquo; <a href="../../e7/index_eng.html" >Contact</a>
+&raquo; <a href="../../e7/e148/index_eng.html" class="current">E-Mail Form</a>
+</div><!-- /Micronavigation-->
+
+<div id="pageregionBefore">
+<h1 class="title">E-Mail Form</h1>
+
+<!--  pageelement_Description -->
+
+<!-- /pageelement_Description -->
+
+
+</div><!-- /pageregionBefore -->
+
+
+
+<p id="e159">
+<br />
+Please feel free to contact us. We’ll be happy to answer your questions. Let us help you meet your flight needs.<br />
+<br />
+</p>
+
+
+
+
+<script type="text/javascript" src="../../../common/prototype.js"></script>
+<script type="text/javascript">
+<!--
+function checkQuoteFormular()
+{
+	var error=0;
+	var error_message="Some errors occured:\n";
+
+	if($F('firstname')=='')
+	{
+		error=1;
+		error_message+="First name is empty\n";
+	}	
+	if($F('surname')=='')
+	{
+		error=1;
+		error_message+="Surname is empty\n";
+	}	
+	if($F('email')=='')
+	{
+		error=1;
+		error_message+="E-Mail is empty\n";
+	} 
+	else
+	{
+		if($F('email')!=$F('repeatemail'))
+		{
+			error=1;
+			error_message+="E-Mail is not equal with Repeat E-Mail\n";
+		}
+	}
+	if(error==1)
+	{
+		alert(error_message);
+		return false;
+	}
+	else
+	{
+		return true;
+	}
+	
+	return false;
+
+}
+//-->
+</script>
+<style type="text/css">
+
+.req
+{
+	color:#FFFF00
+}
+#QuoteFormular textarea,
+#QuoteFormular input
+{
+	background:#809980;
+	border:none;
+	width:230px;
+}
+#QuoteFormular textarea
+{
+	height:60px;
+}
+#QuoteFormular input.submit
+{
+	width:100px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	font-weight:bold;
+	font-size:10px;
+	color:#030;
+}
+#QuoteFormular input.submit:hover
+{
+	background:#FF0;
+}
+
+</style>
+<form method="post" action="http://pegaso.gestaltungswerk.info//PHPMAILER/sendForm.php" onsubmit="return checkQuoteFormular();" name="QuoteFormular" id="QuoteFormular" >
+<input type="hidden" name="client" value="pegaso"/>
+<input type="hidden" name="lang" value="eng"/>
+<input type="hidden" name="form" value="Quote"/>
+<table cellpadding="4" cellspacing="4">
+<tr>
+<td valign="top">Your message</td>
+<td><textarea name="message"> </textarea></td>
+</tr>
+<tr>
+<td valign="top">First Name<span class="req">*</span></td>
+<td><input type="text" name="firstname" id="firstname" /></td>
+</tr>
+<tr>
+<td valign="top">Surname<span class="req">*</span></td>
+<td><input type="text" name="surname" id="surname" /></td>
+</tr>
+<tr>
+<td valign="top">E-Mail<span class="req">*</span></td>
+<td><input type="text" name="email" id="email" /></td>
+</tr>
+<tr>
+<td valign="top">Repeat E-Mail<span class="req">*</span></td>
+<td><input type="text" name="repeatemail" id="repeatemail" /></td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td><br/><input type="submit" class="submit" value="Send E-Mail" /></td>
+</tr>
+</table>
+
+</form>
+
+
+
+</div><!--/InnerContent-->
+</div><!--/pageregionContent-->
+</div><!--/pageregionMiddle-->
+
+
+
+
+
+</body
+></html>
+

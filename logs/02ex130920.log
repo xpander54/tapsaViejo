@@ -1,0 +1,21 @@
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-09-20 05:11:52
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-09-20 05:11:51 W3SVC60019 GET /content/e4/e36/e38/Cessna_eng.jpg - - 189.253.95.253 HTTP/1.1 Mozilla/5.0+(Windows+NT+6.1;+WOW64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/29.0.1547.76+Safari/537.36 - www.transportes-pegaso.com 200 28407 330
+2013-09-20 05:12:18 W3SVC60019 GET /robots.txt - - 37.140.141.29 HTTP/1.1 Mozilla/5.0+(compatible;+YandexImages/3.0;++http://yandex.com/bots) - www.transportes-pegaso.com 200 327 199
+2013-09-20 05:21:13 W3SVC60019 GET /robots.txt - - 65.55.215.49 HTTP/1.1 msnbot-media/1.1+(+http://search.msn.com/msnbot.htm) - www.transportes-pegaso.com 200 376 223
+2013-09-20 05:21:13 W3SVC60019 GET /content/e3/e19/e21/oelbohriplattform_eng.jpg - - 65.55.215.49 HTTP/1.1 msnbot-media/1.1+(+http://search.msn.com/msnbot.htm) - www.transportes-pegaso.com 200 91389 434
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-09-20 05:36:52
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-09-20 05:36:52 W3SVC60019 GET /content/e164/images170/Cessna_eng.jpg - - 37.140.141.29 HTTP/1.1 Mozilla/5.0+(compatible;+YandexImages/3.0;++http://yandex.com/bots) - www.transportes-pegaso.com 200 28407 331
+#Software: Microsoft Internet Information Services 6.0
+#Version: 1.0
+#Date: 2013-09-20 05:54:52
+#Fields: date time s-sitename cs-method cs-uri-stem cs-uri-query cs-username c-ip cs-version cs(User-Agent) cs(Referer) cs-host sc-status sc-bytes cs-bytes 
+2013-09-20 05:54:51 W3SVC60019 GET /content/e4/e202/images213/BK_117_C1_eng.gif - - 173.252.73.115 HTTP/1.1 facebookexternalhit/1.1+(+http://www.facebook.com/externalhit_uatext.php) http://background-pictures.feedio.net/modelismo-en-papel-maquetas-modelos-para-imprimir-ofertopia-el/hobbylagos.com*store*images*ITALERI-2655[1].jpg/ www.transportes-pegaso.com 206 9272 432
+2013-09-20 05:54:54 W3SVC60019 GET /content/e4/e202/images213/BK_117_C1_eng.gif - - 69.171.233.7 HTTP/1.1 facebookexternalhit/1.1+(+http://www.facebook.com/externalhit_uatext.php) - www.transportes-pegaso.com 206 34015 275
+2013-09-20 06:00:28 W3SVC60019 GET /content/e4/e36/e38/Cessna_eng.jpg - - 189.225.94.97 HTTP/1.1 Mozilla/5.0+(iPad;+CPU+OS+7_0+like+Mac+OS+X)+AppleWebKit/537.51.1+(KHTML,+like+Gecko)+Version/7.0+Mobile/11A465+Safari/9537.53 - www.transportes-pegaso.com 200 28407 318
+2013-09-20 06:03:32 W3SVC60019 GET /content/e4/e202/images210/EC_135_eng.jpg - - 37.140.141.29 HTTP/1.1 Mozilla/5.0+(compatible;+YandexImages/3.0;++http://yandex.com/bots) - www.transportes-pegaso.com 304 186 334
